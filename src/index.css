@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* カスタムカラーパレット（パステル水色系） */
+@theme {
+  --color-background: #F0F9FF;
+  --color-background-dark: #0F172A;
+  --color-sub-background: #E0F2FE;
+  --color-sub-background-dark: #1E293B;
+  --color-text: #334155;
+  --color-text-dark: #E0F2FE;
+  --color-sub-text: #64748B;
+  --color-sub-text-dark: #94A3B8;
+  --color-accent: #7DD3FC;
+  --color-accent-dark: #38BDF8;
+  --color-success: #A7F3D0;
+  --color-success-dark: #34D399;
+  --color-error: #FECACA;
+  --color-error-dark: #F87171;
+  --color-warning: #FDE68A;
+  --color-warning-dark: #FBBF24;
+  
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+}
+
+:root {
+  --bg-primary: var(--color-background);
+  --bg-secondary: var(--color-sub-background);
+  --text-primary: var(--color-text);
+  --text-secondary: var(--color-sub-text);
+  --accent: var(--color-accent);
+}
+
+.dark {
+  --bg-primary: var(--color-background-dark);
+  --bg-secondary: var(--color-sub-background-dark);
+  --text-primary: var(--color-text-dark);
+  --text-secondary: var(--color-sub-text-dark);
+  --accent: var(--color-accent-dark);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* スクロールバーのスタイル */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: var(--radius-full);
+}

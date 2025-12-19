@@ -1,0 +1,324 @@
+{
+  "foods": [
+    {
+      "id": "rice_white",
+      "name": "白米（ごはん）",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 150,
+      "nutrition": { "calories": 168, "protein": 2.5, "fat": 0.3, "carbs": 37.1, "fiber": 0.3, "sodium": 0 }
+    },
+    {
+      "id": "rice_brown",
+      "name": "玄米（ごはん）",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 150,
+      "nutrition": { "calories": 165, "protein": 2.8, "fat": 1.0, "carbs": 35.6, "fiber": 1.4, "sodium": 0 }
+    },
+    {
+      "id": "bread_white",
+      "name": "食パン",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 60,
+      "nutrition": { "calories": 264, "protein": 9.3, "fat": 4.4, "carbs": 46.7, "fiber": 2.3, "sodium": 1.2 }
+    },
+    {
+      "id": "udon",
+      "name": "うどん（ゆで）",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 200,
+      "nutrition": { "calories": 105, "protein": 2.6, "fat": 0.4, "carbs": 21.6, "fiber": 0.8, "sodium": 0.1 }
+    },
+    {
+      "id": "soba",
+      "name": "そば（ゆで）",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 170,
+      "nutrition": { "calories": 132, "protein": 4.8, "fat": 1.0, "carbs": 26.0, "fiber": 2.0, "sodium": 0 }
+    },
+    {
+      "id": "pasta",
+      "name": "スパゲッティ（ゆで）",
+      "category": "穀類",
+      "unit": "g",
+      "defaultAmount": 200,
+      "nutrition": { "calories": 149, "protein": 5.2, "fat": 0.9, "carbs": 28.4, "fiber": 1.5, "sodium": 0 }
+    },
+    {
+      "id": "chicken_breast",
+      "name": "鶏むね肉（皮なし）",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 108, "protein": 22.3, "fat": 1.5, "carbs": 0, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "chicken_thigh",
+      "name": "鶏もも肉（皮つき）",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 200, "protein": 16.2, "fat": 14.0, "carbs": 0, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "pork_loin",
+      "name": "豚ロース",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 263, "protein": 19.3, "fat": 19.2, "carbs": 0.2, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "pork_belly",
+      "name": "豚バラ肉",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 386, "protein": 14.2, "fat": 34.6, "carbs": 0.1, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "beef_sirloin",
+      "name": "牛サーロイン",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 298, "protein": 17.4, "fat": 23.7, "carbs": 0.3, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "ground_beef",
+      "name": "牛ひき肉",
+      "category": "肉類",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 272, "protein": 19.0, "fat": 21.1, "carbs": 0, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "salmon",
+      "name": "鮭（生）",
+      "category": "魚介類",
+      "unit": "g",
+      "defaultAmount": 80,
+      "nutrition": { "calories": 133, "protein": 22.3, "fat": 4.1, "carbs": 0.1, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "tuna",
+      "name": "まぐろ（赤身）",
+      "category": "魚介類",
+      "unit": "g",
+      "defaultAmount": 80,
+      "nutrition": { "calories": 125, "protein": 26.4, "fat": 1.4, "carbs": 0.1, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "mackerel",
+      "name": "さば（生）",
+      "category": "魚介類",
+      "unit": "g",
+      "defaultAmount": 80,
+      "nutrition": { "calories": 202, "protein": 20.7, "fat": 12.1, "carbs": 0.3, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "shrimp",
+      "name": "えび（むき身）",
+      "category": "魚介類",
+      "unit": "g",
+      "defaultAmount": 50,
+      "nutrition": { "calories": 83, "protein": 18.4, "fat": 0.3, "carbs": 0.3, "fiber": 0, "sodium": 0.3 }
+    },
+    {
+      "id": "egg",
+      "name": "鶏卵（全卵）",
+      "category": "卵・乳製品",
+      "unit": "個",
+      "defaultAmount": 60,
+      "nutrition": { "calories": 151, "protein": 12.3, "fat": 10.3, "carbs": 0.3, "fiber": 0, "sodium": 0.4 }
+    },
+    {
+      "id": "milk",
+      "name": "牛乳",
+      "category": "卵・乳製品",
+      "unit": "ml",
+      "defaultAmount": 200,
+      "nutrition": { "calories": 67, "protein": 3.3, "fat": 3.8, "carbs": 4.8, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "yogurt",
+      "name": "ヨーグルト（プレーン）",
+      "category": "卵・乳製品",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 62, "protein": 3.6, "fat": 3.0, "carbs": 4.9, "fiber": 0, "sodium": 0.1 }
+    },
+    {
+      "id": "cheese",
+      "name": "プロセスチーズ",
+      "category": "卵・乳製品",
+      "unit": "g",
+      "defaultAmount": 20,
+      "nutrition": { "calories": 339, "protein": 22.7, "fat": 26.0, "carbs": 1.3, "fiber": 0, "sodium": 2.8 }
+    },
+    {
+      "id": "tofu",
+      "name": "木綿豆腐",
+      "category": "豆類",
+      "unit": "g",
+      "defaultAmount": 150,
+      "nutrition": { "calories": 72, "protein": 6.6, "fat": 4.2, "carbs": 1.6, "fiber": 0.4, "sodium": 0 }
+    },
+    {
+      "id": "natto",
+      "name": "納豆",
+      "category": "豆類",
+      "unit": "パック",
+      "defaultAmount": 50,
+      "nutrition": { "calories": 200, "protein": 16.5, "fat": 10.0, "carbs": 12.1, "fiber": 6.7, "sodium": 0 }
+    },
+    {
+      "id": "soy_milk",
+      "name": "豆乳",
+      "category": "豆類",
+      "unit": "ml",
+      "defaultAmount": 200,
+      "nutrition": { "calories": 46, "protein": 3.6, "fat": 2.0, "carbs": 3.1, "fiber": 0.2, "sodium": 0 }
+    },
+    {
+      "id": "cabbage",
+      "name": "キャベツ",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 23, "protein": 1.3, "fat": 0.2, "carbs": 5.2, "fiber": 1.8, "sodium": 0 }
+    },
+    {
+      "id": "carrot",
+      "name": "にんじん",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 50,
+      "nutrition": { "calories": 39, "protein": 0.7, "fat": 0.1, "carbs": 9.3, "fiber": 2.8, "sodium": 0 }
+    },
+    {
+      "id": "onion",
+      "name": "玉ねぎ",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 37, "protein": 1.0, "fat": 0.1, "carbs": 8.8, "fiber": 1.6, "sodium": 0 }
+    },
+    {
+      "id": "tomato",
+      "name": "トマト",
+      "category": "野菜",
+      "unit": "個",
+      "defaultAmount": 150,
+      "nutrition": { "calories": 19, "protein": 0.7, "fat": 0.1, "carbs": 4.7, "fiber": 1.0, "sodium": 0 }
+    },
+    {
+      "id": "spinach",
+      "name": "ほうれん草",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 80,
+      "nutrition": { "calories": 20, "protein": 2.2, "fat": 0.4, "carbs": 3.1, "fiber": 2.8, "sodium": 0 }
+    },
+    {
+      "id": "broccoli",
+      "name": "ブロッコリー",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 80,
+      "nutrition": { "calories": 33, "protein": 4.3, "fat": 0.5, "carbs": 5.2, "fiber": 4.4, "sodium": 0 }
+    },
+    {
+      "id": "potato",
+      "name": "じゃがいも",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 76, "protein": 1.6, "fat": 0.1, "carbs": 17.6, "fiber": 1.3, "sodium": 0 }
+    },
+    {
+      "id": "mushroom",
+      "name": "しいたけ",
+      "category": "野菜",
+      "unit": "g",
+      "defaultAmount": 30,
+      "nutrition": { "calories": 18, "protein": 3.0, "fat": 0.4, "carbs": 4.9, "fiber": 3.5, "sodium": 0 }
+    },
+    {
+      "id": "apple",
+      "name": "りんご",
+      "category": "果物",
+      "unit": "個",
+      "defaultAmount": 200,
+      "nutrition": { "calories": 61, "protein": 0.2, "fat": 0.3, "carbs": 16.2, "fiber": 1.9, "sodium": 0 }
+    },
+    {
+      "id": "banana",
+      "name": "バナナ",
+      "category": "果物",
+      "unit": "本",
+      "defaultAmount": 100,
+      "nutrition": { "calories": 86, "protein": 1.1, "fat": 0.2, "carbs": 22.5, "fiber": 1.1, "sodium": 0 }
+    },
+    {
+      "id": "orange",
+      "name": "オレンジ",
+      "category": "果物",
+      "unit": "個",
+      "defaultAmount": 150,
+      "nutrition": { "calories": 46, "protein": 0.9, "fat": 0.1, "carbs": 11.8, "fiber": 1.0, "sodium": 0 }
+    },
+    {
+      "id": "soy_sauce",
+      "name": "醤油",
+      "category": "調味料",
+      "unit": "ml",
+      "defaultAmount": 15,
+      "nutrition": { "calories": 71, "protein": 7.7, "fat": 0, "carbs": 10.1, "fiber": 0, "sodium": 14.5 }
+    },
+    {
+      "id": "miso",
+      "name": "味噌",
+      "category": "調味料",
+      "unit": "g",
+      "defaultAmount": 18,
+      "nutrition": { "calories": 192, "protein": 12.5, "fat": 6.0, "carbs": 21.9, "fiber": 4.9, "sodium": 12.4 }
+    },
+    {
+      "id": "sugar",
+      "name": "砂糖",
+      "category": "調味料",
+      "unit": "g",
+      "defaultAmount": 10,
+      "nutrition": { "calories": 384, "protein": 0, "fat": 0, "carbs": 99.2, "fiber": 0, "sodium": 0 }
+    },
+    {
+      "id": "salt",
+      "name": "塩",
+      "category": "調味料",
+      "unit": "g",
+      "defaultAmount": 2,
+      "nutrition": { "calories": 0, "protein": 0, "fat": 0, "carbs": 0, "fiber": 0, "sodium": 39.0 }
+    },
+    {
+      "id": "olive_oil",
+      "name": "オリーブオイル",
+      "category": "調味料",
+      "unit": "ml",
+      "defaultAmount": 13,
+      "nutrition": { "calories": 921, "protein": 0, "fat": 100, "carbs": 0, "fiber": 0, "sodium": 0 }
+    },
+    {
+      "id": "mayonnaise",
+      "name": "マヨネーズ",
+      "category": "調味料",
+      "unit": "g",
+      "defaultAmount": 15,
+      "nutrition": { "calories": 703, "protein": 1.4, "fat": 76.0, "carbs": 3.6, "fiber": 0, "sodium": 1.8 }
+    }
+  ]
+}
